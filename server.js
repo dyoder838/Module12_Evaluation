@@ -4,7 +4,7 @@ const mysql = require("mysql2");
 
 // create a MySQL connection
 const connection = mysql.createConnection({
-    host: "127.0.0.1", //have to use this cause localhost doesnt run properly on the new mac
+    host: "0.0.0.0", //have to use this cause localhost doesnt run properly on the new mac
     user: "root",
     password: "",
     database: "New_company_db",
